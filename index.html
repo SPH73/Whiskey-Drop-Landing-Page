@@ -11,13 +11,27 @@
 </head>
 
 <body>
-    <article class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+        <a href="/" class="navbar-brand">Whiskey Drop</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+            <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+        </ul>
+        <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Great Whiskey Delivered to your Door!</i></p>
+            <a href="/login">Sign Up / Sign In</a>
+        </div>
+    </nav>
+    <article class="container mt-3">
         <!--Callout-->
         <div class="row">
             <div class="col-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskies delivered to your doorstep.</h1>
-                    <p class="lead">Sign up today to start receiving the worlds best whiskey's every month. <s>$19.99</s> <strong><mark>The first one is free!</mark></strong></p>
+                    <p class="lead">Sign up today to start receiving the worlds best whiskey's every month. <s class="d-none d-sm-inline">$19.99</s>
+                    <span class="d-inline d-sm-none"><br></span>
+                    <strong><mark>The first one is free!</mark></strong></p>
                     <button class="btn btn-success btn-lg">Sign Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up. Please drink responsibly.</small></p>
                 </section>
@@ -29,7 +43,7 @@
         <!--Quotes-->
         <section class="blockquote">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Quotes</h2>
                 </div>
             </div>
@@ -52,26 +66,26 @@
 
         <section class="features">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 my-5">
                     <h2 class="text-uppercase">Features:</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
                         <h3>Features 1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos reprehenderit neque, tenetur impedit, illo dolores culpa, ut aliquid unde numquam excepturi. Quisquam exercitationem, unde vel.</p>
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
                         <h3>Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, eligendi, rerum. Sit, ad eveniet. Dolores necessitatibus autem blanditiis consectetur nobis porro possimus aliquam sed soluta!</p>
                         <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
                     </div>
                 </div>
-                <div class="col-12 d-md-none">
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
                         <h3>Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quidem eum cum non libero reprehenderit consequatur fuga et magnam, quasi autem repudiandae, reiciendis accusamus deleniti!</p>
